@@ -1,1 +1,1 @@
-Search.setIndex({docnames:["index"],envversion:53,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{},titles:["Welcome to Carlos Perales\u2019 website\u2019s documentation!"],titleterms:{carlo:0,document:0,peral:0,websit:0,welcom:0}})
+Search.setIndex({docnames:["index"],envversion:53,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{},titles:["Carlos Perales Gonz\u00e1lez"],titleterms:{"gonz\u00e1lez":0,carlo:0,document:[],peral:0,websit:[],welcom:[]}})
