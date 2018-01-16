@@ -21,7 +21,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import sphinx_bootstrap_theme
+# import sphinx_bootstrap_theme
+# import pallets_sphinx_themes
 
 # -- General configuration ------------------------------------------------
 
@@ -90,8 +91,17 @@ todo_include_todos = False
 # html_theme = 'classic'
 
 ## Bootstrap
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+# html_theme = 'bootstrap'
+# html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+
+## Flask
+html_theme_path = ['_themes']
+html_theme = 'flask'
+
+## Bootstrap
+# html_theme_path = ['../_themes']
+# html_theme = 'minimal'
+# html_theme = 'hugo-alabaster-theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -111,8 +121,8 @@ html_static_path = ['_static']
 # refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
 html_sidebars = {
     '**': [
-        'relations.html',  # needs 'show_related': True theme option to display
-        'searchbox.html',
+        # 'relations.html',  # needs 'show_related': True theme option to display
+        # 'searchbox.html',
     ]
 }
 
