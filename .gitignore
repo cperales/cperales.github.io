@@ -2,3 +2,5 @@ env/
 .buildinfo
 .doctrees/
 _sources/
+.idea/
+
