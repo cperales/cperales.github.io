@@ -3,11 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. centered:: Carlos Perales González
+Carlos Perales González
 ===============================================
 
-.. image:: ../img/profile.jpg
-    :align: left
-    :scale: 10%
+|
 
-.. right: Welcome!
+.. image:: ../img/profile.jpg
+    :scale: 20%
+    :align: center
+    :alt: ¡Este soy yo!
+
+|
+
+Físico, matemático aplicado y `algo programador <https://github.com/cperales/>`_,
+me encanta Python. Ahora mismo estoy estudiando un Doctorado
+en aprendizaje automático. Aunque en el mundo académico se suele trabajar con Matlab, intento
+traducir mi trabajo a Python y hacerlo `público <https://cperales.github.io/PyELM/>`_
+a través de un repositorio `público <https://github.com/cperales/PyELM/>`_ en Github.

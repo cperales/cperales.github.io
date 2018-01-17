@@ -52,6 +52,7 @@ master_doc = 'index'
 project = 'Carlos Perales\' website'
 copyright = '2018, Carlos Perales'
 author = 'Carlos Perales'
+html_show_copyright = False
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -110,6 +111,8 @@ html_theme_options = {
     # an arbitrary url.
     'navbar_links': [
         # ("Examples", "examples"),
+        ("LinkedIn", "http://www.linkedin.com/in/carlos-perales-cperales", True),
+        ("Github", "https://github.com/cperales", True),
         ("PyELM", "https://cperales.github.io/PyELM/", True),
     ],
 
@@ -117,7 +120,7 @@ html_theme_options = {
     'navbar_sidebarrel': True,
 
     # Render the current pages TOC in the navbar. (Default: true)
-    'navbar_pagenav': True,
+    'navbar_pagenav': False,
 
     # Tab name for the current pages TOC. (Default: "Page")
     'navbar_pagenav_name': "Page",
