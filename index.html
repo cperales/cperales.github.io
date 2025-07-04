@@ -8,6 +8,18 @@
 	<head>
 		<title>Carlos Perales</title>
 		<meta charset="utf-8" />
+
+		<script>
+		    const ua = navigator.userAgent.toLowerCase();
+		    const chatGPTBots = ["claude", "gpt", "oai", "openai"];
+		
+		    const isChatGPTBot = chatGPTBots.some(bot => ua.includes(bot));
+		    if (isChatGPTBot) {
+		      window.location.href = "/llms.txt";
+		    }
+		</script>
+
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
